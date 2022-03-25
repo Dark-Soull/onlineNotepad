@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Home"
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_24"/>
+        <item android:title="Donation"
+            android:id="@+id/donation"
+            android:icon="@drawable/ic_donation_24"/>
+    </group>
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:title="Settings"-->
+<!--            android:id="@+id/setting"-->
+<!--            android:icon="@drawable/ic_settings_24"/>-->
+        <item
+            android:title="About"
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about_24"/>
+    </group>
+    <group android:checkableBehavior="single">
+
+                <item
+                    android:title="Share"
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_share_24"/>
+                <item
+                    android:title="Rate Us"
+                    android:id="@+id/rate"
+                    android:icon="@drawable/ic_rate_24"/>
+    </group>
+
+</menu>
